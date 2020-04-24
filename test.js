@@ -32,11 +32,11 @@ function makeBox(){
 
         var top= Math.random();
 
-        top = top*400;
+        top = top*500;
 
         var left= Math.random();
 
-        left= left*300;
+        left= left*400;
 
         document.getElementById("box").style.left= left + "px"
         document.getElementById("box").style.top=top+"px";
