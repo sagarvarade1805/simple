@@ -63,7 +63,7 @@ document.getElementById("box").onclick=function() {
    
     this.style.display="none";
 
-    if(reactionTime > 1){
+    if(reactionTime > 2.2){
         document.getElementById("time").innerHTML=reactionTime +"   Itna jyada time bc...";
     }
    
