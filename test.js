@@ -36,7 +36,7 @@ function makeBox(){
 
         var left= Math.random();
 
-        left= left*400;
+        left= left*300;
 
         document.getElementById("box").style.left= left + "px"
         document.getElementById("box").style.top=top+"px";
