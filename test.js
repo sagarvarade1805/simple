@@ -32,11 +32,11 @@ function makeBox(){
 
         var top= Math.random();
 
-        top = top*350;
+        top = top*400;
 
         var left= Math.random();
 
-        left= left*200;
+        left= left*300;
 
         document.getElementById("box").style.left= left + "px"
         document.getElementById("box").style.top=top+"px";
@@ -63,8 +63,8 @@ document.getElementById("box").onclick=function() {
    
     this.style.display="none";
 
-    if(reactionTime > 1.5){
-        document.getElementById("time").innerHTML=reactionTime +"  Itna jyada time bc...";
+    if(reactionTime > 1){
+        document.getElementById("time").innerHTML=reactionTime +"   Itna jyada time bc...";
     }
    
     makeBox();
